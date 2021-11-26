@@ -7,7 +7,7 @@ pipeline{
     environment{
         tomcatWebLocation="C:\\Users\\gd5\\Downloads\\apache-tomcat-9.0.55.zip\\apache-tomcat-9.0.55\\webapps\\"
         tomcatBinLocation="C:\\Users\\gd5\\Downloads\\apache-tomcat-9.0.55.zip\\apache-tomcat-9.0.55\\bin\\"
-        buildLocation="C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\jenkins-pipeline\\mywebapp\\target\\mywebapp.war"
+        buildLocation="C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\deploy_to_tomcat_pipeline\\mywebapp\\target\\mywebapp.war"
     }
 
     stages{
